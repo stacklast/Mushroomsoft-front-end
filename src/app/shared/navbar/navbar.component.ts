@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  public routes = [
+    { text: 'Admin', path: '/admin' },
+    { text: 'Dashboard', path: '/dashboard' }
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
