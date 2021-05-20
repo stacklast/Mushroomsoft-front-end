@@ -7,8 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --prod --base-href=/Mushroomsoft-front-end/"
-
+    "deploy": "ng build --base-href /Mushroomsoft-front-end/"
   },
   "private": true,
   "dependencies": {
